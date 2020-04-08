@@ -1,0 +1,760 @@
+{
+  "defaultCams": [
+    {
+      "camIndex": 0,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "CU",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 1,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 2,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 3,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 4,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 5,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 6,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 7,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 8,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 9,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 10,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 11,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 12,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 13,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 14,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 15,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 16,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 17,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 18,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 19,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 180.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 20,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "CU",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 21,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 22,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 23,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 24,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 25,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 26,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 27,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 28,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 29,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 30,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 31,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 32,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 33,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 34,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 35,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 36,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 37,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 38,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 39,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 180.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 40,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "CU",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 41,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 42,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 43,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 44,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 45,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 46,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 47,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 48,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 49,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 50,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 51,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 52,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 53,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 54,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 55,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 56,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 57,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 58,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 59,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 180.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 60,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "CU",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 61,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 62,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 63,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 64,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 65,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 66,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": -45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 67,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 68,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 69,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 0.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 70,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 71,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 72,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 45.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 73,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": -22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 74,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 75,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "MS",
+      "angle": 90.0,
+      "rotAngle": 22.5,
+      "POV": 0
+    },
+    {
+      "camIndex": 76,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": -90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 77,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 78,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 90.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 79,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "LS",
+      "angle": 180.0,
+      "rotAngle": 0.0,
+      "POV": 0
+    },
+    {
+      "camIndex": 80,
+      "charIndex": 0,
+      "objectIndex": "NA",
+      "distance": "NA",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 1
+    },
+    {
+      "camIndex": 81,
+      "charIndex": 1,
+      "objectIndex": "NA",
+      "distance": "NA",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 1
+    },
+    {
+      "camIndex": 82,
+      "charIndex": 2,
+      "objectIndex": "NA",
+      "distance": "NA",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 1
+    },
+    {
+      "camIndex": 83,
+      "charIndex": 3,
+      "objectIndex": "NA",
+      "distance": "NA",
+      "angle": 0.0,
+      "rotAngle": 0.0,
+      "POV": 1
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28369ff4-0a1a-4cdb-8ec1-409e61d885b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xwm3rQlmkVZGC1nbrq08F5OhsZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\IEEE_workspace\AutoCamera\PythonCode\AutoCamera\process" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.viwer">
+    <configuration name="cost_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoCamera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/optimization/cost_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/optimization/cost_functions/cost_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lrtree_method_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoCamera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process/support" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/support/lrtree_method_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoCamera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/optimization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/optimization/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoCamera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="viwer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoCamera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/viwer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.lrtree_method_test" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.cost_main" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.viwer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.viwer" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.lrtree_method_test" />
+        <item itemvalue="Python.cost_main" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28369ff4-0a1a-4cdb-8ec1-409e61d885b4" name="Default Changelist" comment="" />
+      <created>1581965334624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581965334624</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="109" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583652444470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="109" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583652444470" />
+    <state width="1508" height="637" key="DebuggerActiveHint" timestamp="1586214489521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1182" height="505" key="DebuggerActiveHint/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249210643" />
+    <state width="1478" height="638" key="DebuggerActiveHint/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585290580492" />
+    <state width="1508" height="637" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586214489521" />
+    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1584574365009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1584574365009" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582767933711" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1586219395090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180864" />
+    <state width="885" height="299" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
+    <state width="1512" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1586219395090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.0.center/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180863" />
+    <state width="885" height="299" key="GridCell.Tab.0.center/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
+    <state width="1512" height="295" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1586219395090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.0.left/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180863" />
+    <state width="885" height="299" key="GridCell.Tab.0.left/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
+    <state width="1512" height="295" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583794298421" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1586219395090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.0.right/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180864" />
+    <state width="885" height="299" key="GridCell.Tab.0.right/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
+    <state width="1512" height="295" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
+    <state width="1899" height="292" key="GridCell.Tab.1.bottom" timestamp="1586219395085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183063" />
+    <state width="885" height="299" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
+    <state width="1512" height="295" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
+    <state width="1899" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
+    <state width="1899" height="292" key="GridCell.Tab.1.center" timestamp="1586219395085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.1.center/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183062" />
+    <state width="885" height="299" key="GridCell.Tab.1.center/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
+    <state width="1512" height="295" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
+    <state width="1899" height="292" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
+    <state width="1899" height="292" key="GridCell.Tab.1.left" timestamp="1586219395085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.1.left/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183062" />
+    <state width="885" height="299" key="GridCell.Tab.1.left/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
+    <state width="1512" height="295" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
+    <state width="1899" height="292" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
+    <state width="1899" height="292" key="GridCell.Tab.1.right" timestamp="1586219395085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="168" key="GridCell.Tab.1.right/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183062" />
+    <state width="885" height="299" key="GridCell.Tab.1.right/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
+    <state width="1512" height="295" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
+    <state width="1899" height="292" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585451178749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585451178749" />
+    <state x="665" y="254" width="672" height="678" key="search.everywhere.popup" timestamp="1586198565837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="254" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586198565837" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main/main.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/process/init_data.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/image_analysis/image_main.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/process/process_optimization.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/process/process_optimization.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/process/support/color_coverage_check.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/process/support/color_coverage_check.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main/main.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/optimization/cost_functions/utils.py</url>
+          <line>238</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/optimization/cost_functions/edge_cost.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/process/support/lrtree_method_test.py</url>
+          <line>239</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/process/support/lrtree_method_test.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/result/viwer.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/optimization/main.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/result/viwer.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="cost_map" />
+        <watch expression="project_data.data_basic_info" />
+        <watch expression="project_data.sequence_data" />
+        <watch expression="camera_data" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

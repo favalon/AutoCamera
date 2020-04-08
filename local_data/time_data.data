@@ -1,0 +1,385 @@
+[
+  [
+    {
+      "animations": {
+        "1": {
+          "animation_duration": 6,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 6,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {
+        "209": {
+          "animation_duration": 6,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {},
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {
+        "214": {
+          "animation_duration": 2,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 2,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "1": {
+          "animation_duration": 3,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 3,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {
+        "212": {
+          "animation_duration": 4,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {},
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {
+        "296": {
+          "animation_duration": 9,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 9,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "173": {
+          "animation_duration": 2,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {},
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "92": {
+          "animation_duration": 2,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {},
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "1": {
+          "animation_duration": 4,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {},
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "89": {
+          "animation_duration": 3,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {},
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "92": {
+          "animation_duration": 2,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {
+        "2111": {
+          "animation_duration": 4,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "89": {
+          "animation_duration": 2,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {},
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ],
+  [
+    {
+      "animations": {
+        "89": {
+          "animation_duration": 3,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    },
+    {
+      "animations": {
+        "273": {
+          "animation_duration": 3,
+          "animation_start_delay": 0
+        }
+      },
+      "sentences": {
+        "0": {
+          "animation_duration": 0,
+          "animation_start_delay": 0
+        }
+      },
+      "walk": {
+        "animation_duration": 0,
+        "animation_start_delay": 0
+      }
+    }
+  ]
+]
