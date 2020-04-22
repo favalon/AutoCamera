@@ -142,14 +142,14 @@ class StaticCostCalculation:
     @staticmethod
     # def cost_sum(timestamp, camera_index, vis_cost, hitch_cost, lr_cost, hr_cost, pov_cost, so_cost, ca_cost, debug_flag=True):
     def cost_sum(*args, debug_flag=True):
-        QUALITY_WEIGHTS = [0.4, 0.5, 0.2, 0.1, 2, 0.2, 0.4, 0.4]
+        QUALITY_WEIGHTS = args[2]
 
-        if len(args) - 2 != len(QUALITY_WEIGHTS):
+        if len(args) - 3 != len(QUALITY_WEIGHTS):
             print("cost sum args number wrong, please check weight or input cost number")
 
         qualityCost = 0
-        for i in range(2, len(args)):
-            qualityCost += args[i] * QUALITY_WEIGHTS[i-2]
+        for i in range(3, len(args)):
+            qualityCost += args[i] * QUALITY_WEIGHTS[i-3]
 
         if debug_flag:
             StaticCostCalculation.cost_print(args[0], args[1], 'total node static cost', qualityCost)
@@ -218,8 +218,8 @@ class EdgeCostCalculation:
         return lr_cost
 
     @staticmethod
-    def transfer_cost_sum(*args, debug_flag=True):
-        TRANSFER_WEIGHTS = [0.2, 0.2, 0.3, 0.3]
+    def transfer_cost_sum(*args, config=None, debug_flag=True):
+        TRANSFER_WEIGHTS = config['dynamic_cost_weight']
 
         if len(args) - 2 != len(TRANSFER_WEIGHTS):
             print("cost sum args number wrong, please check weight or input cost number")

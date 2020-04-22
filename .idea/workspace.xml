@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28369ff4-0a1a-4cdb-8ec1-409e61d885b4" name="Default Changelist" comment="" />
+    <list default="true" id="28369ff4-0a1a-4cdb-8ec1-409e61d885b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/generals/Configure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/temp/all_possible_sequence_81_combination" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutoCamera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoCamera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/project_data_81" beforeDir="false" afterPath="$PROJECT_DIR$/data/project_data_81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimization/cost_functions/cost_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimization/cost_functions/cost_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimization/cost_functions/cost_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimization/cost_functions/cost_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimization/cost_functions/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimization/cost_functions/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimization/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimization/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/support/lrtree_method_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/support/lrtree_method_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/all_possible_sequence_58_combination" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/general_opt.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/general_opt.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_0.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_0.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_1.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_1.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_10.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_10.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_2.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_2.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_3.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_3.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_4.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_4.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_5.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_5.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_6.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_6.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_7.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_7.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_8.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_8.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/temp/sequence_9.result" beforeDir="false" afterPath="$PROJECT_DIR$/result/temp/sequence_9.result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/viwer.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/viwer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Xwm3rQlmkVZGC1nbrq08F5OhsZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MineStory_V2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -30,7 +62,7 @@
       <recent name="B:\IEEE_workspace\AutoCamera\PythonCode\AutoCamera\process" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.viwer">
+  <component name="RunManager" selected="Python.main">
     <configuration name="cost_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutoCamera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,19 +169,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.lrtree_method_test" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.cost_main" />
+      <item itemvalue="Python.lrtree_method_test" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.viwer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.viwer" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.lrtree_method_test" />
         <item itemvalue="Python.cost_main" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,88 +203,100 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="109" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583652444470" />
-    <state width="1508" height="637" key="DebuggerActiveHint" timestamp="1586214489521">
+    <state x="587" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586726075619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586726075619" />
+    <state width="1508" height="637" key="DebuggerActiveHint" timestamp="1586761117630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1182" height="505" key="DebuggerActiveHint/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249210643" />
     <state width="1478" height="638" key="DebuggerActiveHint/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585290580492" />
-    <state width="1508" height="637" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586214489521" />
-    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1584574365009">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1508" height="637" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586761117630" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586978135527">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1584574365009" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582767933711" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1586219395090">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586978135527" />
+    <state width="1307" height="274" key="GridCell.Tab.0.bottom" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180864" />
     <state width="885" height="299" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
     <state width="1512" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1586219395090">
+    <state width="1307" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state width="1307" height="274" key="GridCell.Tab.0.center" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.0.center/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180863" />
     <state width="885" height="299" key="GridCell.Tab.0.center/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
     <state width="1512" height="295" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1586219395090">
+    <state width="1307" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state width="1307" height="274" key="GridCell.Tab.0.left" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.0.left/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180863" />
     <state width="885" height="299" key="GridCell.Tab.0.left/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
     <state width="1512" height="295" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583794298421" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1586219395090">
+    <state width="1307" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state width="1307" height="274" key="GridCell.Tab.0.right" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.0.right/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249180864" />
     <state width="885" height="299" key="GridCell.Tab.0.right/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293142068" />
     <state width="1512" height="295" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395090" />
-    <state width="1899" height="292" key="GridCell.Tab.1.bottom" timestamp="1586219395085">
+    <state width="1307" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state width="1307" height="274" key="GridCell.Tab.1.bottom" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183063" />
     <state width="885" height="299" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
     <state width="1512" height="295" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
-    <state width="1899" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
-    <state width="1899" height="292" key="GridCell.Tab.1.center" timestamp="1586219395085">
+    <state width="1307" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state width="1307" height="274" key="GridCell.Tab.1.center" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.1.center/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183062" />
     <state width="885" height="299" key="GridCell.Tab.1.center/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
     <state width="1512" height="295" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
-    <state width="1899" height="292" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
-    <state width="1899" height="292" key="GridCell.Tab.1.left" timestamp="1586219395085">
+    <state width="1307" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state width="1307" height="274" key="GridCell.Tab.1.left" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.1.left/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183062" />
     <state width="885" height="299" key="GridCell.Tab.1.left/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
     <state width="1512" height="295" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
-    <state width="1899" height="292" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
-    <state width="1899" height="292" key="GridCell.Tab.1.right" timestamp="1586219395085">
+    <state width="1307" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state width="1307" height="274" key="GridCell.Tab.1.right" timestamp="1586762028706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="168" key="GridCell.Tab.1.right/0.0.1536.824/1920.43.1920.1040@0.0.1536.824" timestamp="1585249183062" />
     <state width="885" height="299" key="GridCell.Tab.1.right/0.0.1536.824/1920.43.1920.1040@1920.43.1920.1040" timestamp="1585293137311" />
     <state width="1512" height="295" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583794298422" />
-    <state width="1899" height="292" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586219395085" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585451178749">
+    <state width="1307" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586762028706" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586328542830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585451178749" />
-    <state x="665" y="254" width="672" height="678" key="search.everywhere.popup" timestamp="1586198565837">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586328542830" />
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586318018176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="665" y="254" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586198565837" />
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586318018176" />
+    <state x="1217" y="54" width="706" height="759" key="dock-window-1" timestamp="1586730254488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1217" y="54" width="706" height="759" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1586730254488" />
+    <state x="665" y="254" width="672" height="678" key="search.everywhere.popup" timestamp="1586737040023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="254" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586737040023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main/main.py</url>
-          <line>26</line>
+          <line>69</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -286,11 +330,6 @@
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/main.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/optimization/cost_functions/utils.py</url>
           <line>238</line>
           <option name="timeStamp" value="157" />
@@ -302,28 +341,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/process/support/lrtree_method_test.py</url>
-          <line>239</line>
+          <line>262</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/process/support/lrtree_method_test.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="171" />
+          <url>file://$PROJECT_DIR$/result/viwer.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/result/viwer.py</url>
-          <line>110</line>
-          <option name="timeStamp" value="172" />
+          <url>file://$PROJECT_DIR$/main/main.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="293" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/optimization/main.py</url>
-          <line>156</line>
-          <option name="timeStamp" value="173" />
+          <line>26</line>
+          <option name="timeStamp" value="305" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/result/viwer.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="179" />
+          <url>file://$PROJECT_DIR$/optimization/main.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/optimization/main.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/optimization/main.py</url>
+          <line>225</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/optimization/main.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/optimization/cost_functions/cost_main.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="314" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

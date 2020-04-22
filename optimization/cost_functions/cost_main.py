@@ -9,7 +9,7 @@ from optimization.cost_functions import static_cost
 from optimization.cost_functions import edge_cost
 
 
-def get_static_cost_wo_obj(node, project_data, activate_char, debug_flag=True):
+def get_static_cost_wo_obj(node, project_data, activate_char, cost_weight, debug_flag=True):
 
     timestamp = node[0]
     camera_index = node[1]
@@ -51,7 +51,7 @@ def get_static_cost_wo_obj(node, project_data, activate_char, debug_flag=True):
     # tk_cost = StaticCostCalculation.talking_cost()
 
     # cost summation
-    node_static_cost = StaticCostCalculation.cost_sum(timestamp, camera_index,
+    node_static_cost = StaticCostCalculation.cost_sum(timestamp, camera_index, cost_weight,
                                                       vis_cost, hitch_cost,
                                                       lr_cost, hr_cost, pov_cost,
                                                       so_cost, ca_cost, tk_cost)
@@ -59,7 +59,7 @@ def get_static_cost_wo_obj(node, project_data, activate_char, debug_flag=True):
     return node_static_cost
 
 
-def prepare_static_cost_map(cost_map, project_data, obj=None, obj_vis=None):
+def prepare_static_cost_map(cost_map, project_data, cost_weight, obj=None, obj_vis=None):
     # obj: we have key object to consider in the scene or not
     # obj_vis : key object visibility
 
@@ -70,19 +70,19 @@ def prepare_static_cost_map(cost_map, project_data, obj=None, obj_vis=None):
     else:
         for t_i in range(cost_map.shape[0]):
             for cam_i in range(cost_map.shape[1]):
-                node_static_cost = get_static_cost_wo_obj([t_i, cam_i], project_data, char_activate_map[t_i])
+                node_static_cost = get_static_cost_wo_obj([t_i, cam_i], project_data, char_activate_map[t_i], cost_weight)
                 cost_map[t_i][cam_i] = node_static_cost
 
 
-def initial_static_cost_map(project_data):
+def initial_static_cost_map(project_data, cost_weight):
     static_cost_map = np.full((len(project_data.timestamp_data.keys()), len(project_data.default_cams.keys())), 999.0)
 
-    prepare_static_cost_map(static_cost_map, project_data)
+    prepare_static_cost_map(static_cost_map, project_data, cost_weight=cost_weight)
 
     return static_cost_map
 
 
-def dynamic_cost(project_data, char_activate_map, node1, node2, debug_flag=False):
+def dynamic_cost(project_data, char_activate_map, node1, node2, config=None, debug_flag=False):
     # calculate transfer pos cost
     pos_cost = EdgeCostCalculation.pos_cost(project_data, char_activate_map, node1, node2, debug_flag=debug_flag)
 
@@ -96,7 +96,7 @@ def dynamic_cost(project_data, char_activate_map, node1, node2, debug_flag=False
     lf_cost = EdgeCostCalculation.left_right_cost(project_data, node1, node2, debug_flag=debug_flag)
 
     tr_cost = EdgeCostCalculation.transfer_cost_sum(node1, node2, pos_cost, gaze_cost, mc_cost, lf_cost,
-                                                    debug_flag=debug_flag)
+                                                    config=config, debug_flag=debug_flag)
 
     # dr_cost = EdgeCostCalculation.duration_cost(node1, node2)
 

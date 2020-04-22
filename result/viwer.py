@@ -1,4 +1,5 @@
 from generals.save_load import LoadBasic, SaveBasic
+from result.helper import DataViewHelper
 
 
 def cal_sequence_combination(cur_i, cur_len, select_len, cur_sequence, sequences, result):
@@ -48,7 +49,7 @@ def select_len_optimization(seq_all):
     # cal_sequence_combination(0, 0, 40, [], seq_all, result)
     for i in seq_all[0]:
         left_max = sum([max_len[-1] for max_len in seq_all[0:]])
-        cal_sequence_combination_2(0, i, 58, left_max, [i], seq_all, result)
+        cal_sequence_combination_2(0, i, 62, left_max, [i], seq_all, result)
 
     SaveBasic.save_basic(result, 'all_possible_sequence_{}_combination'.format(58), 'temp')
     return result
@@ -81,9 +82,11 @@ def get_cost(path, data):
 
             select_partial_path = None
             if left_min_cost < right_min_cost:
+                print(left_min_cost)
                 select_partial_path = seq_data['left'][0][left_min_index]
                 min_cost += left_min_cost
             else:
+                print(right_min_cost)
                 select_partial_path = seq_data['right'][0][right_min_index]
                 min_cost += right_min_cost
 
@@ -94,10 +97,39 @@ def get_cost(path, data):
     return min_cost, full_path
 
 
+def path_translation(path):
+    tran_path = {"cam_sequence": []}
+    start_time = 0
+    previous_cam = None
+    duration = 0
+    for i, p in enumerate(path):
+        if i == 0:
+            start_time = 0
+            previous_cam = p[1]
+            duration = 1
+        elif i != len(path) - 1:
+            if p[1] == previous_cam:
+                duration += 1
+            else:
+                pattern = {"startTime": start_time, "duration": duration, "camIndex": previous_cam, "tracking": 0}
+                tran_path["cam_sequence"].append(pattern)
+                previous_cam = p[1]
+                start_time += duration
+                duration = 1
+        else:
+            pattern = {"startTime": start_time, "duration": duration, "camIndex": p[1], "tracking": 0}
+            tran_path["cam_sequence"].append(pattern)
+
+    return tran_path
+
+
 def main(sel_len):
     data = LoadBasic.load_basic("general_opt.result", 'temp')
+
+    DataViewHelper.get_min_cost_path(data, 0, 8)
+
     seq_all = get_sequence_length(data)
-    # select_len_optimization(seq_all)
+    select_len_optimization(seq_all)
     all_comb = LoadBasic.load_basic('all_possible_sequence_{}_combination'.format(58), 'temp')
 
     min_cost = 999
@@ -108,6 +140,11 @@ def main(sel_len):
             min_cost = cur_path_cost
             select_path = cur_path
     print(select_path)
+
+    # path translation
+    tran_path = path_translation(select_path)
+
+    print(tran_path)
     return select_path
 
 

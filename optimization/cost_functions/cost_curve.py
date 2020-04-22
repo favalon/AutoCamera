@@ -32,8 +32,8 @@ def headRoomCostCurve(headroom):
         return sigmoid(headroom, .7, 20)
 
 
-def durationCurve(duration):
-    return round(convex(duration, 3, 9), 2)
+def durationCurve(duration, center=3):
+    return round(convex(duration, center, 9), 2)
 
 def positionChangeCurve(pos1, pos2):
     if pos1 == pos2:

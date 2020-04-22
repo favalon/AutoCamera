@@ -58,15 +58,16 @@ def calculate_pair_list(s_n, l_n, r_n):
     return p_flag, cut_pairs
 
 
-def cal_cost_fake(project_data, char_activate_map, cost_map, path, debug_flag=False):
+def cal_cost(project_data, char_activate_map, cost_map, path, config=None, debug_flag=False):
+    DURATION_COST_WEIGHT = 1.0
     # calculate cost by given path
 
     if len(path) == 0:
         return 0
     if len(path) == 1:
-        return dynamic_cost(project_data, char_activate_map, path[0], path[0], debug_flag=debug_flag)
+        return dynamic_cost(project_data, char_activate_map, path[0], path[0], config=config, debug_flag=config['debug'])
     if len(path) == 2:
-        return dynamic_cost(project_data, char_activate_map, path[0], path[1], debug_flag=debug_flag)
+        return dynamic_cost(project_data, char_activate_map, path[0], path[1], config=config, debug_flag=config['debug'])
 
     t_cost = 0
 
@@ -78,28 +79,41 @@ def cal_cost_fake(project_data, char_activate_map, cost_map, path, debug_flag=Fa
     for i in range(len(path)-1):
         node1 = path[i]
         node2 = path[i+1]
-        t_cost += dynamic_cost(project_data, char_activate_map, node1, node2, debug_flag=debug_flag)
+        t_cost += dynamic_cost(project_data, char_activate_map, node1, node2, config=config, debug_flag=config['debug'])
 
     # duration cost
+    pre_ts = 0
     pre_cam = 0
     change_cam = 0
     sta_len = 0
     t_dur_cost = 0
+    duration_center = config['duration_center']
     for i, p in enumerate(path):
         if i == 0:
             pre_cam = p[1]
+            pre_ts = p[0]
             sta_len = 1
             change_cam = 1
+        elif i == len(path) - 1 and p[1] == pre_cam:
+            sta_len += 1
+            t_dur_cost += cost_curve.durationCurve(sta_len, center=duration_center)
+        elif i == len(path) - 1 and p[1] != pre_cam:
+            t_dur_cost += cost_curve.durationCurve(sta_len, center=duration_center)
+            change_cam += 1
+            sta_len = 1
+            t_dur_cost += cost_curve.durationCurve(sta_len, center=duration_center)
         else:
+            if p[0] == pre_ts:
+                sta_len -= 1
             if p[1] != pre_cam:
                 change_cam += 1
-                t_dur_cost += cost_curve.durationCurve(sta_len)
-                sta_len = 0
+                t_dur_cost += cost_curve.durationCurve(sta_len, center=duration_center)
+                sta_len = 1
             else:
                 sta_len += 1
     dur_cost = t_dur_cost/change_cam
 
-    t_cost += dur_cost
+    t_cost += dur_cost * config['duration_cost_weight']
 
     return t_cost
 
@@ -110,7 +124,7 @@ def cal_single_cost(c_n, cost_map):
     return path, path, cost, cost
 
 
-def cal_pair_cost(project_data, char_activate_map, l_c_n, r_c_n, cost_map):
+def cal_pair_cost(project_data, char_activate_map, l_c_n, r_c_n, cost_map, config=None):
     l_path = []
     r_path = []
     l_cost = []
@@ -119,7 +133,8 @@ def cal_pair_cost(project_data, char_activate_map, l_c_n, r_c_n, cost_map):
         min_cost = float('inf')
         path = [None, None]
         for cam_r_i in range(len(cost_map[r_c_n])):
-            cur_cost = cal_cost_fake(project_data, char_activate_map, cost_map, [[l_c_n, cam_l_i], [r_c_n, cam_r_i]])
+            cur_cost \
+                = cal_cost(project_data, char_activate_map, cost_map, [[l_c_n, cam_l_i], [r_c_n, cam_r_i]], config=config)
             if cur_cost < min_cost:
                 min_cost = cur_cost
                 path = [[l_c_n, cam_l_i], [r_c_n, cam_r_i]]
@@ -129,7 +144,8 @@ def cal_pair_cost(project_data, char_activate_map, l_c_n, r_c_n, cost_map):
     for cam_r_i in range(len(cost_map[r_c_n])):
         min_cost = float('inf')
         for cam_l_i in range(len(cost_map[l_c_n])):
-            cur_cost = cal_cost_fake(project_data, char_activate_map, cost_map, [[l_c_n, cam_l_i], [r_c_n, cam_r_i]])
+            cur_cost\
+                = cal_cost(project_data, char_activate_map, cost_map, [[l_c_n, cam_l_i], [r_c_n, cam_r_i]], config=config)
             if cur_cost < min_cost:
                 min_cost = cur_cost
                 path = [[l_c_n, cam_l_i], [r_c_n, cam_r_i]]
@@ -139,7 +155,7 @@ def cal_pair_cost(project_data, char_activate_map, l_c_n, r_c_n, cost_map):
     return l_path, r_path, l_cost, r_cost
 
 
-def cal_multi_cost(project_data, char_activate_map, path_l, path_r, cost_map, left=False):
+def cal_multi_cost(project_data, char_activate_map, path_l, path_r, cost_map, left=False, config=None):
     path = []
     cost = []
     if left:
@@ -148,7 +164,7 @@ def cal_multi_cost(project_data, char_activate_map, path_l, path_r, cost_map, le
             selected_path = None
             for rp in path_r:
                 cur_path = lp + rp
-                cur_cost = cal_cost_fake(project_data, char_activate_map, cost_map, cur_path)
+                cur_cost = cal_cost(project_data, char_activate_map, cost_map, cur_path, config=config)
                 if min_cost > cur_cost:
                     min_cost = cur_cost
                     selected_path = cur_path
@@ -161,7 +177,7 @@ def cal_multi_cost(project_data, char_activate_map, path_l, path_r, cost_map, le
             selected_path = None
             for lp in path_l:
                 cur_path = lp + rp
-                cur_cost = cal_cost_fake(project_data, char_activate_map, cost_map, cur_path)
+                cur_cost = cal_cost(project_data, char_activate_map, cost_map, cur_path, config=config)
                 if min_cost > cur_cost:
                     min_cost = cur_cost
                     selected_path = cur_path
@@ -199,8 +215,9 @@ def path_selection(path_l, path_r, cost_l, cost_r, left_primary=True):
     return path, cost_path
 
 
-def recursion_cost(c_n, cost_map, project_data, char_activate_map):
+def recursion_cost(c_n, cost_map, project_data, char_activate_map, config=None):
     if not c_n:
+        # return np.array([]), np.array([]), np.array([]), np.array([])
         return [], [], [], []
     n = len(c_n)
     if n == 0:
@@ -208,22 +225,28 @@ def recursion_cost(c_n, cost_map, project_data, char_activate_map):
     if n == 1:
         return cal_single_cost(c_n[0], cost_map)
     elif n == 2:
-        return cal_pair_cost(project_data, char_activate_map, c_n[0], c_n[1], cost_map)
+        return cal_pair_cost(project_data, char_activate_map, c_n[0], c_n[1], cost_map, config=config)
     else:
         l_n = int(n/2)
         r_n = n - l_n
         l_c_n = c_n[:l_n]
         r_c_n = c_n[l_n:]
-        l_l_path, l_r_path, l_l_cost, l_r_cost = recursion_cost(l_c_n, cost_map, project_data, char_activate_map)
-        r_l_path, r_r_path, r_l_cost, r_r_cost = recursion_cost(r_c_n, cost_map, project_data, char_activate_map)
+        l_l_path, l_r_path, l_l_cost, l_r_cost \
+            = recursion_cost(l_c_n, cost_map, project_data, char_activate_map, config=config)
+        r_l_path, r_r_path, r_l_cost, r_r_cost \
+            = recursion_cost(r_c_n, cost_map, project_data, char_activate_map, config=config)
 
-        path_1, cost_1 = cal_multi_cost(project_data, char_activate_map, l_l_path, r_l_path, cost_map, left=True)
-        path_2, cost_2 = cal_multi_cost(project_data, char_activate_map, l_r_path, r_l_path, cost_map, left=True)
+        path_1, cost_1 \
+            = cal_multi_cost(project_data, char_activate_map, l_l_path, r_l_path, cost_map, left=True, config=config)
+        path_2, cost_2 \
+            = cal_multi_cost(project_data, char_activate_map, l_r_path, r_l_path, cost_map, left=True, config=config)
         # l start best path selection
         l_path, l_cost = path_selection(path_1, path_2, cost_1, cost_2, left_primary=True)
 
-        path_3, cost_3 = cal_multi_cost(project_data, char_activate_map, l_l_path, r_r_path, cost_map, left=False)
-        path_4, cost_4 = cal_multi_cost(project_data, char_activate_map, l_r_path, r_r_path, cost_map, left=False)
+        path_3, cost_3 \
+            = cal_multi_cost(project_data, char_activate_map, l_l_path, r_r_path, cost_map, left=False, config=config)
+        path_4, cost_4 \
+            = cal_multi_cost(project_data, char_activate_map, l_r_path, r_r_path, cost_map, left=False, config=config)
         # r end best path selection
         r_path, r_cost = path_selection(path_3, path_4, cost_3, cost_4, left_primary=False)
     return l_path, r_path, l_cost, r_cost
@@ -234,7 +257,7 @@ def recur_test_main():
     cams_n = 40
     fake_cost_map = np.random.rand(total_cut, cams_n)
 
-    l, r = recursion_cost([0], fake_cost_map)
+    l, r = recursion_cost(np.array([0]), fake_cost_map)
     print(l)
     print(r)
     return 0
@@ -265,26 +288,26 @@ def main():
     # print(calculate_pair_list(4, 5, 2))
 
     # 2 recursion
-    # recur_test_main()
+    recur_test_main()
 
     # basic info
-    sequence = [8, 6, 5, 4, 7, 8, 9, 6, 8]
-    seq_ts_group = []
-    ts = 0
-    for seq in sequence:
-        seq_ts = []
-        for x in range(seq):
-            seq_ts.append(ts)
-            ts += 1
-        seq_ts_group.append(seq_ts)
-
-    seq_num = len(sequence)
-
-    sel_comb_dict = {}
-    for i in range(len(seq_ts_group[0])+1):
-        sel_seq, result = [], []
-        get_combination(seq_ts_group[0], 0, i, sel_seq, result)
-        sel_comb_dict[i] = result
+    # sequence = [8, 6, 5, 4, 7, 8, 9, 6, 8]
+    # seq_ts_group = []
+    # ts = 0
+    # for seq in sequence:
+    #     seq_ts = []
+    #     for x in range(seq):
+    #         seq_ts.append(ts)
+    #         ts += 1
+    #     seq_ts_group.append(seq_ts)
+    #
+    # seq_num = len(sequence)
+    #
+    # sel_comb_dict = {}
+    # for i in range(len(seq_ts_group[0])+1):
+    #     sel_seq, result = [], []
+    #     get_combination(seq_ts_group[0], 0, i, sel_seq, result)
+    #     sel_comb_dict[i] = result
 
 
 
